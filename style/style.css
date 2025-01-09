@@ -5,7 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-primary {
+    background-color: rgb(255, 0, 0);
+}
+.text-primary {
+    color: rgb(255, 0, 0);
+}
 
+.text-secondary {
+    color:rgb(7, 2, 17)
+}
 .banner {
     max-width: 1320px;
     margin: 0 auto;
@@ -128,4 +137,314 @@
 
 .party-image img {
     width: 100%;
+}
+
+.schedule {
+    max-width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-top: 120px;
+}
+
+.schedule-content {
+    padding: 100px 385px 210px 385px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.schedule-content .place,.date,.time {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
+.schedule-content .place span,.date span,.time span {
+    color: rgb(255, 0, 0);
+}
+
+.best-offer {
+    max-width: 1320px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.best-offer-content {
+    width: 393px;
+    padding: 104px 0;
+}
+.best-offer-content h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-content h3 {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.best-offer-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+.best-offer-image-wrap {
+    width: 463px;
+    height: 463px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.best-offer-image {
+    width: 364px;
+    height: 364px;
+    border: 3px dashed rgb(208,208,208);
+}
+
+.best-offer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.new-year {
+    padding-top: 112px;
+}
+.new-year-content {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.new-year-content h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.new-year-image {
+    width: 140px;
+    height: 140px;
+    border: 3px dashed rgb(208,208,208);
+    margin-top: 43px;
+}
+.new-year img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* function section */
+.functional {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.functional-content {
+    width: 1068px;
+    margin: 0 auto;
+}
+
+.functional-content h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.functional-content h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.functional-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 28px;
+}
+.functional-image {
+    width: 1320px;
+    height: 662px;
+    margin-top: 64px;
+}
+.box-image-or-discount-image-wrap {
+    
+}
+.functional-image .box-image-wrap {
+    width: 796px;
+    border: 2px dashed rgb(208,208,208);
+}
+.functional-image .box-img {
+    width: 674px;
+    height: 575px;
+    position: absolute;
+    left: 200px;
+}
+
+/* .functional-image .box-img img {
+    width: 100%;
+    object-fit: cover;
+} */
+
+/* .functional-image .discount-image {
+    width: 305px;
+    height: 305px;
+    display: flex;
+    justify-content: end;
+}
+.functional-image .discount-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+/* Gift section */
+.gift-section {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.gift-section .subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-section .title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.gift-section .description {
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.gift-image-wrapper {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gift-image-wrapper .gift-image {
+    width: 424px;
+    height: 450px;
+}
+.gift-image-wrapper .gift-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Newsletter section */
+.newsletter {
+    max-width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    padding: 80px 212px;
+}
+.newsletter-content {
+    width: 896px;
+}
+.mail-image {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.newsletter-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.submition-btn {
+    max-width: 648px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    border-radius: 50px;
+}
+
+.submition-btn input {
+    width: 100%;
+    padding: 25px 30px;
+    outline: none;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.submition-btn button {
+    padding: 24px 56px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px; 
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+.footer-section {
+    background: rgb(7, 2, 17);
 }
